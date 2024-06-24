@@ -1,0 +1,24 @@
+/* Estilos básicos para as divs */
+.parent {
+  display: flex; /* Alinha as divs lado a lado */
+}
+button{
+  margin: 10px;
+}
+label{
+  color: white;
+  font-size: 20px;
+}
+
+.child {
+  flex: 1; /* Distribui o espaço igualmente entre as divs */
+  padding: 10px;
+  margin: 10px; /* Espaçamento entre as divs */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Estilos para os botões */
+.child button {
+  margin: 5px; /* Espaçamento entre os botões */
+}

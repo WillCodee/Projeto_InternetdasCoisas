@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #080026, #0a0030 56%, #1c008c);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none; /* Remove a borda */
+  border-bottom: 1px solid #ddd; /* Adicione uma linha na parte inferior */
+  background: transparent; /* Remova o fundo */
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: white;
+  
+}
+
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

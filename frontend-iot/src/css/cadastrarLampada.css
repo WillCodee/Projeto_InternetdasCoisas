@@ -1,0 +1,60 @@
+.lampada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+.imagem {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.botao {
+    padding: 10px 20px;
+}
+
+.switch {
+    width: 180px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+   .switch > div {
+    position: absolute;
+    height: 50px;
+    top: 50%;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transform: translateY(-50%);
+  } 
+  
+   .switch > div:nth-child(1) {
+    width: 50px;
+    border-radius: 999px;
+    left: 3px;
+    background-color: gray;
+  } 
+  
+  .switch > div:nth-child(2) {
+    width: 100%;
+    background-color: green;
+    border-radius: 20px;
+    z-index: -1;
+  } 
+
+  .label {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
